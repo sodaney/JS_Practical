@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>java github</title>
+</head>
+	<script type="text/javascript">
+		function clicked()
+		{
+			var ss=document.getElementById('sa').value;
+			var ss=parseInt(ss);
+			if(ss>0)
+			{
+				var bb=document.getElementById('sa').innerHTML='';
+				document.write(bb+"positive"+ss);
+			}
+			else
+			{
+				var hh=document.getElementById('sa').innerHTML='';
+				document.write(hh+"negative"+ss);
+			}
+		}
+	</script>
+<body>
+
+</body>
+		<input type="text" id="sa"></input>
+		<button onclick="clicked()">click</button>
+</html>
