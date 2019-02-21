@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		input[type=text]
+		{
+			border-color:orange; 
+			width:300px;
+			height:30px;  
+			border-radius: 5px;
+			margin-top: 30px;
+		}
+		.s
+		{
+			width: 70px;
+			height: 40px;
+			color: orange;
+			margin-top: 30px;
+			border-radius: 5px;
+			color: green;
+			border-color: blue;
+		}
+		.s:hover
+		{
+			color:pink;
+			background-color: purple;
+		}
+
+	</style>
+
+	<script type="text/javascript">
+		var a=
+		{
+			add:function(val1,val2)
+			{
+				return val1+val2;
+			},
+			sub:function(val1,val2)
+			{
+				return val1-val2;
+			},
+			mul:function(val1,val2)
+			{
+				return val1*val2;
+			},
+			div:function(val1,val2)
+			{
+				return val1/val2;
+			}
+
+		}
+		function add()
+		{
+			var val1=parseInt(document.getElementById('val1').value);
+			var val2=parseInt(document.getElementById('val2').value);
+			var vtn=a.add(val1,val2);
+			alert("sum="+vtn);
+		}
+		function sub()
+		{
+			var val1=parseInt(document.getElementById('val1').value);
+			var val2=parseInt(document.getElementById('val2').value);
+			var vtn=a.sub(val1,val2);
+			alert("sum="+vtn);
+		}
+		function mul()
+		{
+			var val1=parseInt(document.getElementById('val1').value);
+			var val2=parseInt(document.getElementById('val2').value);
+			var vtn=a.mul(val1,val2);
+			alert("sum="+vtn);
+		}
+		function div()
+		{
+			var val1=parseInt(document.getElementById('val1').value);
+			var val2=parseInt(document.getElementById('val2').value);
+			var vtn=a.div(val1,val2);
+			alert("sum="+vtn);
+		}
+</script>
+</head>
+<body bgcolor="white black">
+	<center> 
+	<input type="text" id="val1" placeholder="put the value here " 
+	><br>
+	<input type="text" id="val2" placeholder="put the value here " 
+	><br>
+	
+	<button class="s" onclick="add()" >add</button>
+	<button class="s" onclick="sub()">sub</button>
+	<button class="s" onclick="mul()">mul</button>
+	<button class="s" onclick="div()">div</button>
+	</div>
+	
+	
+
+
+</body>
+</html>
