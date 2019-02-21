@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<hmtl>
+<header>
+    <title>Positive or Negative</title>
+    <script>
+        function prn()
+        {
+            var num = document.getElementById('pn').value;
+            if(num>0)
+               document.write("It is a positive value.")
+            else if (num<0)
+                document.write("It is a negative value.")
+            else
+                document.write("It can be positive or negative value")
+        }
+    </script>
+</header>
+<body>
+    <input type="text" id="pn" placeholder="Enter value">
+    <br>
+    <button onclick="prn()">Answer</button>
+</body>
+</hmtl>
