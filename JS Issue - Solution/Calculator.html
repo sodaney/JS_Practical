@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<hmtl>
+<header>
+    <title>Calculator</title>
+    <script>
+            function sum()
+        {   
+            var first = document.getElementById('fir').value;
+            var second =document.getElementById('sec').value;
+            var res = parseInt(first)+parseInt(second);
+            document.write("Result is "+res);
+        }
+            function sub()
+        {
+            var first = document.getElementById('fir').value;
+            var second =document.getElementById('sec').value;
+            var res = parseInt(first)-parseInt(second);
+            document.write("Result is "+res);
+        }
+            function mul()
+        {   
+            var first = document.getElementById('fir').value;
+            var second =document.getElementById('sec').value;
+            var res = parseInt(first)*parseInt(second);
+            document.write("Result is "+res);
+        }
+            function div()
+        {
+            var first = document.getElementById('fir').value;
+            var second =document.getElementById('sec').value;
+            var res = parseInt(first)/parseInt(second);
+            document.write("Result is "+res);
+        }
+        
+    </script>
+</header>
+<body>
+    1st:<input type="text" placeholder="Enter first value" id="fir"> <br>
+    2nd:<input type="text" placeholder="Enter second value" id="sec"><br>
+    <button onclick="sum()">Sum</button>
+    <button onclick="sub()">Sub</button>
+    <button onclick="mul()">Mul</button>
+    <button onclick="div()">Div</button>
+</body>
+</hmtl>
