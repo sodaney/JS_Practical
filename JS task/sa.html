@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>multiplication and division</title>
+	<script type="text/javascript">
+		function add()
+		{
+			var ss=document.getElementById('sa').value;
+			var dd=document.getElementById('sasa').value;
+			var res=parseInt(ss)+parseInt(dd);
+			document.write("the result of add is"+res);
+		}
+		function sub()
+		{
+			var aa=document.getElementById('sa').value;
+			var bb=document.getElementById('sasa').value;
+			var bes=parseInt(aa)-parseInt(bb);
+			document.write("the result of sub is"+bes);
+		}
+		function mul()
+		{
+			var cc=document.getElementById('sa').value;
+			var ee=document.getElementById('sasa').value;
+			var ces=parseInt(cc)*parseInt(ee);
+			document.write("the result of multiplication is "+ces);
+		}
+		function div()
+		{
+			var ff=document.getElementById('sa').value;
+			var gg=document.getElementById('sasa').value;
+			var des=parseInt(ff)/parseInt(gg);
+			document.write("the result of division is "+des);
+		}
+	</script>
+</head>
+<body>
+
+</body>
+		enter the first value
+		<input type="text" id="sa"><br>
+		enter the second value
+		<input type="text" id="sasa"><br>
+		<button onclick="add()">add</button>
+		<button onclick="sub()">sub</button>
+		<button onclick="mul()">mul</button>
+		<button onclick="div()">div</button>
+
+</html>
