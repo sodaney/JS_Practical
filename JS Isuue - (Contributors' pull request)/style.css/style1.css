@@ -14,7 +14,7 @@
 			background-color:#1626B6; 
 			width: 400px;
 			height: 50px;
-			position: relative;
+			border-radius: 10px;
 		}
 		.a:hover
 		{
@@ -24,14 +24,15 @@
 		{
 		 color: white;
 
-			padding-top: 100px;
+			padding-top:90px;
 	        text-align: center;
-			padding-top: 15px;
+			padding-top: 10px;
 			margin-bottom: 2px; 
 			background-color:#6DEFE7; 
 			width: 400px;
 			height: 50px;
-			position: relative;
+			border-radius: 10px;
+			
 
 		}.b:hover
 		{
@@ -44,9 +45,9 @@
 			padding-top: 15px;
 			margin-bottom: 2px; 
 			background-color:#CC5214; 
-			 position: relative;
-			width: 400px;
+		    width: 400px;
 			height: 50px;
+			border-radius: 10px;
 
 		}.c:hover
 		{
@@ -61,7 +62,7 @@
 			background-color:#23AAE4; 
 			width: 400px;
 			height: 50px;
-			position: relative;
+			border-radius: 10px;
 
 		}.d:hover
 		{
@@ -76,7 +77,7 @@
 			background-color: #2AEF5E;
 			width: 400px;
 			height: 50px;
-			position: relative;
+		   border-radius: 10px;
 
 		}.e:hover
 		{
@@ -91,7 +92,9 @@
 			background-color:red; 
 			width: 400px;
 			height: 50px;
-			position: relative;}.f:hover
+		    border-radius: 10px;
+			}.f:hover
+
 		{
 			transform: scale(1.1);
 		}
@@ -111,4 +114,13 @@
 }
 .fb{
 	margin: 0px 80px;
+} 
+input[type="text"]
+{
+	width: 800px;
+	height: 30px;
+	border-radius: 10px;
+	color: orange;
+	border-color: orange;
+	font-size: 20px;
 }
