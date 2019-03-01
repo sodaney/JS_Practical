@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <title>javascript: calculate two numbers</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script>
+            
+            function calcMult()
+            {
+                var n1 = parseFloat(document.getElementById('n1').value);
+                var n2 = parseFloat(document.getElementById('n2').value);
+                
+                document.getElementById('result').value = n1*n2;
+           	}
+            
+               function calcDivide()
+            {
+                var n1 = parseFloat(document.getElementById('n1').value);
+                var n2 = parseFloat(document.getElementById('n2').value);
+                
+                document.getElementById('result').value = n1/n2;
+           	}
+                
+            
+        </script>
+        
+    </head>
+    <body>
+        
+        1st Number : <input type="text" id="n1"/><br/><br/>
+        2st Number :<input type="text" id="n2"/><br/><br/>
+        
+        <button onclick="calcMult();">Multiply</button>
+        <button onclick="calcDivide();">Divide</button><br>
+        
+        The Result is : <br>
+        <input style = "border: none;" type="text" id="result"/>
+        
+    </body>
+</html>
