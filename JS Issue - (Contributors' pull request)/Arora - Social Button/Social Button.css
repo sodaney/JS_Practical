@@ -1,0 +1,22 @@
+body {
+    background-color: #C0C0C0;
+    background-image: url("social.jpg");
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.display{
+    padding-top: 60px;
+    text-align:center;
+}
+
+.image{
+    height:50px;
+    width:200px;
+    padding:10px
+}
